@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-npm install -g @longjiaqiuu/inio
+npm install -g inio-labs
 ```
 
 ## 用法
