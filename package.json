@@ -1,5 +1,5 @@
 {
-  "name": "inio",
+  "name": "@longjiaqiuu/inio",
   "version": "0.1.0",
   "description": "基于工作流优先的场景化项目初始化 CLI（默认中文模板，支持英文）。 / Workflow-first scenario project initializer (default zh, en supported).",
   "license": "MIT",

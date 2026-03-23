@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install -g inio
+npm install -g @longjiaqiuu/inio
 ```
 
 ## Usage
