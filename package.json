@@ -1,0 +1,30 @@
+{
+  "name": "inio",
+  "version": "0.1.0",
+  "description": "基于工作流优先的场景化项目初始化 CLI（默认中文模板，支持英文）。 / Workflow-first scenario project initializer (default zh, en supported).",
+  "license": "MIT",
+  "bin": {
+    "inio": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.en.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "commander": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
